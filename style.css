@@ -1,0 +1,553 @@
+@import url('https://fonts.cdnfonts.com/css/open-sans');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300&family=Lora&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('YandexSansDisplay-Bold.eot');
+    src: local('Yandex Sans Display Bold'), local('YandexSansDisplay-Bold'),
+
+
+    url('./fonts/YandexSansDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    font-family: 'Lora', serif;
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.navbar{
+    height: 125px;
+    background: rgb(0 43 69 / 90%);
+    position: relative;
+    z-index: 5;
+}
+.container{
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+}
+ul,li{
+   list-style-type: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+.zakaz-text{
+    font-weight: 700;
+}
+.zakaz-text, .zakaz-pod-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+    line-height: normal;
+}
+.zakaz{
+    padding-top: 10px;
+    padding-left: 215px;
+}
+.whatsup-logo, .tel-number{
+    padding-top: 10px;
+}
+.tel-number{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.button-tel{
+
+    align-items: center;
+    width: 183px;
+    height: 49px;
+    background: rgba(0, 43, 69, 0.9);
+    border: 0.836px solid #FFF;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.y-titles{
+    font-family: 'YandexSansDisplay-Bold', sans-serif;
+   color: #827F7F;;
+    font-size: 21.653px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.217px;
+}
+.otziv {
+    display: flex;
+}
+.yandex{
+    color: #FFF;
+
+    font-family: 'YandexSansDisplay-Bold', sans-serif;
+    font-size: 8.752px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.y-title{
+    font-family: 'YandexSansDisplay-Bold', sans-serif;
+    color: white;
+    font-size: 13.826px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main{
+    background-image: url("images/первый экран.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 850px;
+    position: relative;
+    margin-top: -125px;
+}
+.logolar{
+    display: flex;
+    gap: 15px;
+}
+.main-title-text{
+    color: #FFF;
+    font-family: 'Lora', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 729px;
+    height: 150px;
+
+}
+.main-title{
+    padding-top: 263px;
+}
+.pod-text-hero{
+    display: flex;
+}
+.hamyon-text{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hamyon-pod-text{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hamyon{
+    display: flex;
+    gap: 15px;
+    padding-top: 60px;
+}
+.hero__button{
+    align-items: center;
+    width: 183px;
+    height: 49px;
+    background:transparent;
+    border: 0.836px solid #FFF;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.content__hero{
+    color: #FFF;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text__hero{
+    display: flex;
+    gap: 5px;
+    padding-top: 48px;
+}
+.img__hero{
+    padding-top: 10px;
+}
+.bir::after {
+    content: url('images/bir.svg');
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    position: relative;
+    left: 15px;
+}
+.ikki::after {
+    content: url('images/bir.svg');
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    position: relative;
+    left: 15px;
+}
+.bir{
+
+    width: 224px;
+    height: 86px;
+    background: rgba(0, 43, 69, 0.9);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    top: -511px;
+    left: 51px;
+}
+.ikki{
+    width: 224px;
+    height: 86px;
+    background: rgba(0, 43, 69, 0.9);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    top: -342px;
+    left: 310px;
+}
+.katta{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 28px;
+
+}
+.uch{
+    width: 224px;
+    height: 86px;
+    background: rgba(0, 43, 69, 0.9);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    top: -142px;
+    left: -54px;
+}
+.uch::after {
+    content: url('images/bir.svg');
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    position: relative;
+    left: 15px;
+}
+.first-img{
+    margin-top: -25px;
+    position: relative;
+}
+.first-grid{
+    display: flex;
+}
+
+.horizontal hr{
+    background: #002B45;
+    width: 650px;
+    margin-top: 78px;
+    position: relative;
+    margin-left: -650px;
+}
+.horizontal{
+    width: 0%;
+}
+
+
+
+.second-section{
+
+    background-color: #FBF6EF;
+    height: 405px;
+}
+.first-title{
+    color: #002B45;
+    width: 381px;
+    font-family: 'Lora', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 43.2px */
+    padding-top: 55px;
+    padding-left: 60px;
+}
+.kartalar{
+    display: flex;
+    padding-left: 55px;
+    padding-top: 55px;
+}
+.second-section{
+    display: flex;
+}
+.karta-sar{
+    color: #002B45;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.karta-con{
+    color: #002B45;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ichki-kartalar{
+    padding-left: 25px;
+}
+.kartalar img{
+    width: 70px;
+    height: 70px;
+}
+.kartalar-qatori{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*media settings*/
+@media only screen and (max-width: 1930px) {
+    .container{
+        max-width: 1332px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1394px) {
+    .horizontal hr {
+        width: 400px;
+    }
+    .container{
+        max-width: 1332px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+        position: relative;
+    }
+    .zakaz {
+        padding-left: 74px;
+    }
+}
+
+
+@media only screen and (max-width: 1368px) and (min-width: 1097px)   {
+
+.kartalar{
+    padding-left: 1px;
+}
+
+    .horizontal hr {
+        width: 400px;
+    }
+    .container{
+        max-width: 1043px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+        position: relative;
+    }
+    .button-tel{
+        width: 122px;
+    }
+    .zakaz {
+        padding-left: 54px;
+    }
+}
+@media only screen and (max-width: 1239px) and (min-width: 1090px) {
+    .horizontal hr {
+        width: 140px;
+    }
+}
+
+
+@media only screen and (max-width: 1096px) {
+    .kartalar-qatori {
+        display: block;
+    }
+    .horizontal hr {
+        width: 100px;
+    }
+    .container{
+        max-width: 920px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+        position: relative;
+    }
+    .button-tel{
+        width: 122px;
+    }
+    .zakaz {
+        padding-left: 54px;
+    }
+    .horizontal hr {
+        background: #002B45;
+        width: 100px;
+    }
+    .whatsup-logo, .tel-number{
+        padding-top: 0px;
+    }
+    .container {
+        max-width: 700px;
+        padding: 0 20px;
+    }
+    .tel-number{
+        font-size: 13px;
+    }
+    .button-tel {
+        width: 75px;
+        font-size: 9px;
+    }
+    .logolar {
+        display:block;
+        gap: 15px;
+    }
+    .main-title-text h1{
+        font-size:14px;
+    }
+    .ikki {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .kartalar-qatori {
+        display: block;
+    }
+
+
+
+}
